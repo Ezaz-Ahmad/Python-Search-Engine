@@ -17,10 +17,10 @@ while True:
 
     if user_input == "0":
         print("Exiting the program.")
-        break  # Exit the loop if user input is 0
+        break  
     if __name__ == "__main__":
         query =user_input
         google_search(query)
-    # You can add any other processing you want here
+ 
     print(f"You entered: {user_input}")
 
